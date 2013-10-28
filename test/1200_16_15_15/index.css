@@ -1,0 +1,21 @@
+body {
+
+	width: 100%;
+
+	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+
+	background:#000 url(1200_16_15_15.png) center 0 repeat-y;
+
+}	
+
+.gray {
+
+	background: #aaa;
+
+}
+
+.yellow {
+
+	background: yellow;
+
+}

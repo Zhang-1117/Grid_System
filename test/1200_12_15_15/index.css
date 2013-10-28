@@ -1,0 +1,233 @@
+body {
+
+	width: 100%;
+
+	font: 13px/1.5 'Helvetica Neue', Arial, 'Liberation Sans', FreeSans, sans-serif;
+
+	background:#000 url(1200_12_15_15.png) center 0 repeat-y;
+
+}	
+
+.gray {
+
+	background: #aaa;
+
+}
+
+.yellow {
+
+	background: yellow;
+
+}
+
+.lightgray {
+
+	background-color: #ddd;
+
+}
+
+.darkgray {
+
+	background-color: #666;
+
+}
+
+.halfwhite {
+
+	background-color: #fff;
+
+	opacity: 0.5; /* Android 2.1+, Chrome 4+, Firefox 2+, IE 9+, iOS 3.2+, Opera 9+, Safari 3.1+ */
+	
+	-moz-opacity:0.5; /* Old mozilla browser like netscape  */
+	
+	-khtml-opacity: 0.5; /* Really really old safari */ 
+	
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=50)"; /* IE8  */
+	
+	filter: alpha(opacity=50); /* IE5-7  */
+
+}
+
+.header {
+
+	height: 70px;
+
+}
+
+.nav > ul > li {
+
+	float: left;
+
+}
+
+.nav > ul .last{
+
+	float: right;
+
+}
+
+.nav > ul > li > a {
+
+	height: 2.5em;
+
+	line-height: 2.5em;
+
+	padding: 0 1em;
+
+}
+
+.headingTitle > h2 {
+
+	font-size: 28px;
+
+	padding: .5em;
+
+	border-bottom: 1px solid #ddd;
+
+	margin-bottom: 10px;
+
+}
+
+.blockTitle {
+
+	background-color: #000;
+
+	color: #fff;
+
+	font-size: 12px;
+
+	line-height: 20px;
+
+	padding-left: 10px;
+
+}
+
+.blockContent {
+
+	padding: 10px;
+
+	font-size: 12px;
+
+	text-indent: 2em;
+
+}
+
+.leftContent {
+
+	width: 800px;
+
+	margin: 30px 0;
+
+}
+
+.content {
+
+	height: 100px;
+
+	background-color: #000;
+
+	color: #fff;
+
+	margin-bottom: 30px;
+
+}
+
+.imgGallery {
+
+	padding-bottom: 10px;
+
+}
+
+.imgContent {
+
+	float: left;
+
+	width: 120px;
+
+	height: 120px;
+
+	margin: 10px 10px 0 10px;
+
+}
+
+div[class*="even"] {
+
+	margin-left: 0;
+
+}
+
+.rightContent {
+
+	margin-top: 30px;
+
+	margin-bottom: 30px;
+
+}
+
+.search > input {
+
+	display: inline-block;
+
+	margin: 10px;
+
+}
+
+.text {
+
+	width: 60%;
+
+}
+
+.button {
+
+	width: 25%;
+
+}
+
+.photoArticle {
+
+	margin-top: 10px;
+
+}
+
+.phoArtContent {
+
+	padding: 10px;
+
+}
+
+.photo {
+
+	float: left;
+
+	width: 60px;
+
+	height: 60px;
+
+	margin-right: 10px;
+
+}
+
+.secondaryBox {
+
+	margin-bottom: 30px;
+
+}
+
+.secondaryContent {
+
+	padding-left: 1em;
+
+	border-left: 3px solid #ccc;
+
+}
+
+.footer {
+
+	position: absolute;
+
+	bottom: 0;
+
+	height: 50px;
+
+}
