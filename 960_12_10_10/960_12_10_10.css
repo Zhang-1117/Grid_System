@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-/*
-960px grid system
-12 Columns ~ margin-left: 10px ~ margin-right:10px
-*/
+/**
+ * 960px grid system
+ * 12 Columns ~ margin-left: 10px ~ margin-right:10px
+ */
 
 .row {
 
